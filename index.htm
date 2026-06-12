@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>Agrinho 2026</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#solutions" class="nav-link">Soluções</a></li>
+                <li><a href="#statistics" class="nav-link">Impacto</a></li>
+                <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in-up">Agro Forte</h1>
+            <p class="hero-subtitle fade-in-up delay-1">Futuro Sustentável</p>
+            <p class="hero-description fade-in-up delay-2">Equilíbrio entre produção agrícola e preservação ambiental para um amanhã mais verde e próspero</p>
+            <button class="hero-btn fade-in-up delay-3" onclick="scrollToSection('about')">
+                Explorar Soluções <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number" data-target="85">0</div>
+                <div class="stat-label">Redução de CO₂</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="40">0</div>
+                <div class="stat-label">Economia de Água</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="100">0</div>
+                <div class="stat-label">Energia Renovável</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre o Projeto</span>
+                <h2>O Equilíbrio que Transforma</h2>
+                <p>Descubra como a agricultura sustentável está revolucionando o campo brasileiro</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Produção Eficiente</h3>
+                    <p>Tecnologias de ponta que aumentam a produtividade enquanto reduzem o impacto ambiental, garantindo alimentos de qualidade para todos.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Preservação Ambiental</h3>
+                    <p>Práticas que protegem nascentes, recuperam áreas degradadas e preservam a biodiversidade nativa do nosso bioma.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Inovação Sustentável</h3>
+                    <p>Soluções inteligentes que integram tecnologia digital, energias renováveis e manejo ecológico do solo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Soluções Sustentáveis</span>
+                <h2>Práticas que Fazem a Diferença</h2>
+                <p>Conheça as técnicas inovadoras que estão transformando o agro brasileiro</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <div class="solution-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Irrigação Inteligente</h3>
+                    <p>Sistemas de gotejamento e sensores de umidade que economizam até 40% de água na produção agrícola.</p>
+                    <div class="solution-progress">
+                        <div class="progress-bar" style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-image">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Energia Solar no Campo</h3>
+                    <p>Implementação de painéis solares para bombas d'água, cercas elétricas e sistemas de refrigeração.</p>
+                    <div class="solution-progress">
+                        <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-image">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Agricultura Regenerativa</h3>
+                    <p>Rotação de culturas, plantio direto e compostagem que recuperam a saúde do solo.</p>
+                    <div class="solution-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-image">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h3>Biocombustíveis</h3>
+                    <p>Produção de etanol de cana e biodiesel que reduzem emissões em até 85% comparado aos combustíveis fósseis.</p>
+                    <div class="solution-progress">
+                        <div class="progress-bar" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Impacto Real</span>
+                <h2>Números que Inspiram</h2>
+                <p>Resultados concretos da agricultura sustentável no Brasil</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <div class="stats-number" data-target="25">0</div>
+                    <div class="stats-label">Milhões de hectares preservados</div>
+                </div>
+                <div class="stats-card">
+                    <div class="stats-number" data-target="35">0</div>
+                    <div class="stats-label">Redução no uso de pesticidas</div>
+                </div>
+                <div class="stats-card">
+                    <div class="stats-number" data-target="50">0</div>
+                    <div class="stats-label">Aumento na produtividade</div>
+                </div>
+                <div class="stats-card">
+                    <div class="stats-number" data-target="12000">0</div>
+                    <div class="stats-label">Famílias beneficiadas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Galeria</span>
+                <h2>Transformação Visual</h2>
+                <p>Veja como a sustentabilidade está mudando a paisagem do campo</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/15/400/300" alt="Agricultura sustentável">
+                    <div class="gallery-overlay">
+                        <h4>Plantio Consciente</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/24/400/300" alt="Energia renovável">
+                    <div class="gallery-overlay">
+                        <h4>Energia Limpa</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/29/400/300" alt="Preservação de nascentes">
+                    <div class="gallery-overlay">
+                        <h4>Água Preservada</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/13/400/300" alt="Biodiversidade">
+                    <div class="gallery-overlay">
+                        <h4>Biodiversidade</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/17/400/300" alt="Tecnologia no campo">
+                    <div class="gallery-overlay">
+                        <h4>Tecnologia Verde</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/id/30/400/300" alt="Colheita sustentável">
+                    <div class="gallery-overlay">
+                        <h4>Colheita Responsável</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2>Participe desta Transformação</h2>
+                <p>Junte-se ao movimento por um agro mais forte e sustentável</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Endereço</h4>
+                        <p>Esplanada dos Ministérios, Brasília - DF</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Telefone</h4>
+                        <p>(61) 3218-0000</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>agrinho2026@agricultura.gov.br</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <input type="tel" placeholder="Seu telefone">
+                    <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-seedling"></i>
+                    <span>Agrinho 2026</span>
+                    <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#solutions">Soluções</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agrinho - Programa de Educação Ambiental. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
